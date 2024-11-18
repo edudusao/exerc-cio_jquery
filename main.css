@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px;
+    background-color: #5f27cd;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-bottom: 16px solid #341f97;
+}
+
+header button{
+    margin-left: 16px;
+    background-color: rgb(134, 134, 241);
+    border: none;
+    font-family: "Fugaz One", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(134, 134, 241);
+}
+
+h2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+form{
+    display: none;
+    background-color: rgb(114, 114, 241);
+    padding: 15px;
+}
+
+.form-content{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 30px;
+}
+
+.form-addtext{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.form-addtext button{
+    margin-left: 16px;
+    background-color: #341f97;
+    border: none;
+    font-family: "Fugaz One", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#volta-form{
+    background-color: #341f97;
+    border: none;
+    margin-top: 8px;
+    font-family: "Fugaz One", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+ol{
+    border: 2px solid yellow;
+    padding: 10px;
+    list-style-type: none;
+    margin: 100px;
+}
+
+.riscado{
+    text-decoration: line-through;
+}
+
+li{
+    cursor: pointer;
+}
